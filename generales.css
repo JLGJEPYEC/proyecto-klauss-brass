@@ -6,12 +6,47 @@
 
 .acceso-usuario{
     float:right;
+    padding-right: 15px;
 }
 
 .encabezado-izq{
     float:left;
+    padding-left: 15px;
 }
 
 .clear-float{
     clear:both;
 }
+
+body {
+    margin: 0px;
+}
+
+.topnav{
+    background-color: #343DBF;
+    
+    overflow: hidden;
+}
+
+.topnav a{
+    color: #EBE415;
+    float: left;
+    padding: 8px 25px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav a.active{
+    background-color: #EBE415;
+    color: #343DBF;
+}
+
+.topnav a:hover{
+    background-color: #F0B40D;
+}
+
+.topnav a.activo {
+    background-color: #000;
+    color: #fff;
+}
+
