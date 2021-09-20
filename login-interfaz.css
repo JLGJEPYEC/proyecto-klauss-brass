@@ -1,6 +1,9 @@
 body{
     background-color: goldenrod;
-    text-align: center;
 }
-
-
+.login-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadro-acceso{
+    float: center;
+}
