@@ -1,0 +1,14 @@
+<?php
+    function Conectarse (){
+        if (!($link=mysql_connec("localhost","root",""))){
+            echo "error al conectarse";
+            exit();
+        }
+        if (!mysql_select_db("klaussbrass",$link)){
+            echo "error seleccionado db";
+            exit();
+        }
+        return $link;
+    }
+
+?>
